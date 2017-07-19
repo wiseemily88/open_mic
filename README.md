@@ -15,7 +15,7 @@ Use tests to drive your development.
 
 ### Iteration 1: Creating Jokes
 
-In this repository we have an existin Joke class. We're going to add to that class so that it can hold basic information about a joke. Add to the existing Joke class so that it supports the following interaction pattern:
+In this repository we have an existing Joke class. We're going to add to that class so that it can hold basic information about a joke. Add to the existing Joke class so that it supports the following interaction pattern:
 
 ```ruby
 > require './lib/joke'
@@ -109,7 +109,7 @@ Continue adding to the User class to support the following interaction pattern.
 > ilana = User.new("Ilana")
 # => #<User:0x007fc87c8f8aa8 ...>
 
-> Josh = User.new("Josh")
+> josh = User.new("Josh")
 # => #<User:0x007fc87cabfbe8 ...>
 
 > ilana.learn(joke_1)
@@ -134,6 +134,6 @@ Continue adding to the User class to support the following interaction pattern.
 # => #<User:0x007fc87c8f8aa8 ...>
 
 > casey.learn_routine('./jokes.csv')
-> case.jokes.count
+> casey.jokes.count
 # => 100
 ```
